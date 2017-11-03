@@ -14,9 +14,9 @@ $packageArgs = @{
 
   softwareName  = 'azure-information-protection-client'
 
-  checksum      = ''
+  checksum      = '825D751444E4785E2C066F02C38B67D717919B913F89028E851FCB52751CECA5'
   checksumType  = 'sha256'
-  checksum64    = ''
+  checksum64    = '825D751444E4785E2C066F02C38B67D717919B913F89028E851FCB52751CECA5'
   checksumType64= 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
@@ -24,22 +24,3 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
