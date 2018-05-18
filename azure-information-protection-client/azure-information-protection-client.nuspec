@@ -14,7 +14,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>azureinformationprotectionclient Azure AIP Information Protection Microsoft</tags>
     <summary>This package contains the azure information protection client which can be downloaded and installed by everyone.</summary>
-    <description>the azure information protection client allowes to encrypt content whithin the usual microsoft office product family.</description>
+    <description>The Azure Information Protection Client allows the user to encrypt content within the usual Microsoft Office product family.</description>
     <releaseNotes>https://www.microsoft.com/en-us/download/details.aspx?id=53018</releaseNotes>
   </metadata>
   <files>
