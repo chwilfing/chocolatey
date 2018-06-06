@@ -18,6 +18,12 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "push choco package",
+            "type": "shell",
+            "command": "choco push azure-information-protection-client.nupkg -s https://chocolatey.org/ --api-key="
+
         }
     ]
 }
