@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>azure-information-protection-client</id>
-    <version>0.2</version>
+    <version>1.27.48.0</version>
     <packageSourceUrl>https://github.com/chwilfing/chocolatey/tree/master/azureinformationprotectionclient</packageSourceUrl>
     <owners>Christoph Wilfing</owners>
     <title>azure-information-protection-client (Install)</title>
