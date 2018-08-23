@@ -6,7 +6,7 @@
         {
             "label": "Build choco package",
             "type": "shell",
-            "command": "choco pack",
+            "command": "${workspaceFolder}/choco pack",
             "presentation": {
                 "echo": true,
                 "reveal": "always",
@@ -22,8 +22,8 @@
         {
             "label": "push choco package",
             "type": "shell",
-            "command": "choco push azure-information-protection-client.nupkg -s https://chocolatey.org/ --api-key="
-
+            "command": "$apikey = Read-host 'APIKey';choco push $(Get-ChildItem *.nupkg | Sort-Object lastwritetime | Select-Object -Last 1).name -s https://chocolatey.org/ --api-key=$apiKey",
+            "problemMatcher": []
         }
     ]
 }
