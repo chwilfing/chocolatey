@@ -10,14 +10,11 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'MSI'
   url           = $url
-  url64bit      = $url64
 
   softwareName  = 'azure-information-protection-client'
 
-  checksum      = 'DBA946F2F479C456CD7ABCAE5A3AF75A0EDE8E91D2AFE9C8D43C38D54EC46DF4'
+  checksum      = '3A29B23D319D0CE90559A67359A65A56E74C2CD433774D14B24BEE42AFB0D148'
   checksumType  = 'sha256'
-  checksum64    = 'DBA946F2F479C456CD7ABCAE5A3AF75A0EDE8E91D2AFE9C8D43C38D54EC46DF4'
-  checksumType64= 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
   validExitCodes= @(0, 3010, 1641)
