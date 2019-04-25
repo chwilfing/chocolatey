@@ -3,7 +3,8 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= $env:ChocolateyPackageName
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url      = 'https://download.microsoft.com/download/4/9/1/491251F7-46BA-46EC-B2B5-099155DD3C27/AzInfoProtection_for_central_deployment.msi'
+$url      = 'https://download.microsoft.com/download/4/9/1/491251F7-46BA-46EC-B2B5-099155DD3C27/AzInfoProtection_MSI_for_central_deployment.msi'
+
              
 $packageArgs = @{
   packageName   = $packageName
@@ -13,7 +14,7 @@ $packageArgs = @{
 
   softwareName  = 'azure-information-protection-client'
 
-  checksum      = '2F4C63AB87A8A6B08AACE883C02B9CE0D5715B83E5320EEB42A5E2FA4EB9AA90'
+  checksum      = '4C14DAAB535CADB2457BEA1268C69EBEEA2D7F694A4BBF502E21FF83840C9678'
   checksumType  = 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
