@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>azure-information-protection-unified-labeling-client</id>
+    <version>2.0.779.0</version>
+    <packageSourceUrl>https://github.com/chwilfing/chocolatey/tree/master/azure-information-protection-client</packageSourceUrl>
+    <owners>Christoph Wilfing</owners>
+    <title>azure-information-protection-unified-labeling-client (Install)</title>
+    <authors>Microsoft</authors>
+    <projectUrl>https://www.microsoft.com/en-us/download/details.aspx?id=53018</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/chwilfing/chocolatey/3236706c/azure-information-protection-client/Icon.ico</iconUrl>
+    <copyright>Microsoft Corporation - 2019</copyright>
+    <licenseUrl>https://www.microsoft.com/en-us/download/details.aspx?id=53018</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>azureinformationprotectionclient Azure AIP Information Protection Unified label Microsoft</tags>
+    <summary>This package contains the azure information protection unified labeling client which can be downloaded and installed by everyone.</summary>
+    <description>The Azure Information Protection Client allows the user to encrypt content within the usual Microsoft Office product family.</description>
+    <releaseNotes>https://docs.microsoft.com/en-us/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
