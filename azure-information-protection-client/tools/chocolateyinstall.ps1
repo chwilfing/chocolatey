@@ -14,7 +14,7 @@ $packageArgs = @{
 
   softwareName  = 'azure-information-protection-client'
 
-  checksum      = '4C14DAAB535CADB2457BEA1268C69EBEEA2D7F694A4BBF502E21FF83840C9678'
+  checksum      = '09419CA6A3565F0AF2504B60FBB8E20A00CB852A14F3FE11BF73058029158B25'
   checksumType  = 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
