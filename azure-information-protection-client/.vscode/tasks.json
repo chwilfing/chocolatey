@@ -4,7 +4,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build choco package",
+            "label": "Choco - Build choco package",
             "type": "shell",
             "command": "choco pack",
             "presentation": {
@@ -20,9 +20,15 @@
             }
         },
         {
-            "label": "Push choco package",
+            "label": "Choco - Push choco package",
             "type": "shell",
             "command": "$apikey = Read-host 'APIKey';choco push $(Get-ChildItem *.nupkg | Sort-Object lastwritetime | Select-Object -Last 1).name -s https://push.chocolatey.org/ --api-key=$apiKey",
+            "problemMatcher": []
+        },
+        {
+            "label": "Choco - Calculate Checksm package",
+            "type": "shell",
+            "command": "$file = Read-host 'Full file path';checksum.exe -t=sha256 -f=$file",
             "problemMatcher": []
         }
     ]
