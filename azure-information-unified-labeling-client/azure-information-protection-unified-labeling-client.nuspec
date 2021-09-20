@@ -5,7 +5,7 @@
     <version>2.12.62.0</version>
     <packageSourceUrl>https://github.com/chwilfing/chocolatey/tree/master/azure-information-protection-client</packageSourceUrl>
     <owners>Christoph Wilfing</owners>
-    <title>azure-information-protection-unified-labeling-client (Install)</title>
+    <title>Azure Information Protection Unified Labeling Client (Install)</title>
     <authors>Microsoft</authors>
     <projectUrl>https://www.microsoft.com/en-us/download/details.aspx?id=53018</projectUrl>
     <iconUrl>https://cdn.rawgit.com/chwilfing/chocolatey/3236706c/azure-information-protection-client/Icon.ico</iconUrl>
