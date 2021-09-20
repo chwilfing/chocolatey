@@ -3,7 +3,7 @@ $ErrorActionPreference = 'Stop';
 
 $packageName = $env:ChocolateyPackageName
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://download.microsoft.com/download/4/9/1/491251F7-46BA-46EC-B2B5-099155DD3C27/AzInfoProtection_ul_MSI_for_central_deployment.msi'
+$url = 'https://download.microsoft.com/download/4/9/1/491251F7-46BA-46EC-B2B5-099155DD3C27/AzInfoProtection_UL.msi'
         
 $packageArgs = @{
     packageName    = $packageName
@@ -13,7 +13,7 @@ $packageArgs = @{
 
     softwareName   = 'azure-information-protection-unified-labeling-client'
 
-    checksum       = '163DBAE0AB66B1A8F7008A6AA5C727BFFCF34C3A2DFA2975D6D18EF3AAE3E339'
+    checksum       = '9053A3D83F24CDD292D15D5B424AC7A5389E10946BE52B867D3AE70A20146E7B'
   
     checksumType   = 'sha256'
 
