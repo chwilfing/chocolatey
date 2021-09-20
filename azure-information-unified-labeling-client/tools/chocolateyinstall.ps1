@@ -11,7 +11,7 @@ $packageArgs = @{
     fileType       = 'MSI'
     url            = $url
 
-    softwareName   = 'azure-information-protection-unified-labeling-client'
+    softwareName   = 'Azure Information Protection Unified Labeling Client'
 
     checksum       = '9053A3D83F24CDD292D15D5B424AC7A5389E10946BE52B867D3AE70A20146E7B'
   
