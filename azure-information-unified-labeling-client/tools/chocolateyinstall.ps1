@@ -13,8 +13,9 @@ $packageArgs = @{
 
     softwareName   = 'Azure Information Protection Unified Labeling Client'
 
-    checksum       = '97A35D19F43ADC98938238568A6F3BEF9830C32F8C5C1FF4E3C1B3AD26FB7204'
-  
+    checksum       = '298F719B4B9A4E6E384059397954E13C8F97780C8CED513FE490B3AD9A1D6251'
+
+
     checksumType   = 'sha256'
 
     silentArgs     = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
