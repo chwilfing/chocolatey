@@ -13,8 +13,7 @@ $packageArgs = @{
 
     softwareName   = 'Azure Information Protection Unified Labeling Client'
 
-    checksum       = 'AA9FC62BC3767AA6118EA383899D08CD713236803BF60B9924008AEC626FF9A2'
-
+    checksum       = 'F070015399FBA9C19B2098231882A264841B81E51E7514A24747B921A4E39A65'
 
     checksumType   = 'sha256'
 

@@ -22,7 +22,7 @@
         {
             "label": "Push choco package",
             "type": "shell",
-            "command": "$apikey = Read-host 'APIKey';choco push $(Get-ChildItem *.nupkg | Sort-Object lastwritetime | Select-Object -Last 1).name -s https://push.chocolatey.org/ --api-key=$apiKey",
+            "command": "$apikey = Read-host 'APIKey';choco push $(Get-ChildItem *.nupkg | Sort-Object lastwritetime | Select-Object -Last 1).name --source https://push.chocolatey.org/ --api-key=$apiKey",
             "problemMatcher": []
         }
     ]
