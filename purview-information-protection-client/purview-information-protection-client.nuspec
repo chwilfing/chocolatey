@@ -7,7 +7,7 @@
     <owners>Christoph Wilfing</owners>
     <title>Pureview Information Protection Client (Install)</title>
     <authors>Microsoft</authors>
-    <projectUrl>https://www.microsoft.com/en-us/download/details.aspx?id=53018</projectUrl>
+    <projectUrl>https://learn.microsoft.com/en-us/purview/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/chwilfing/chocolatey/3236706c/purview-information-protection-client/Icon.ico</iconUrl>
     <copyright>Microsoft Corporation - 2024</copyright>
     <licenseUrl>https://www.microsoft.com/en-us/download/details.aspx?id=53018</licenseUrl>
