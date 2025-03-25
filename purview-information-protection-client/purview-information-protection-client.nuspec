@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>purview-information-protection-client</id>
-    <version>3.0.58.0</version>
+    <version>3.1.105.0</version>
     <packageSourceUrl>https://github.com/chwilfing/chocolatey/tree/master/purview-information-protection-client</packageSourceUrl>
     <owners>Christoph Wilfing</owners>
     <title>Pureview Information Protection Client (Install)</title>
     <authors>Microsoft</authors>
     <projectUrl>https://www.microsoft.com/en-us/download/details.aspx?id=53018</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chwilfing/chocolatey@master/purview-information-protection-client/Icon.ico</iconUrl>
-    <copyright>Microsoft Corporation - 2024</copyright>
+    <copyright>Microsoft Corporation - 2025</copyright>
     <licenseUrl>https://www.microsoft.com/en-us/download/details.aspx?id=53018</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>azureinformationprotectionclient Azure AIP Information Protection Unified label Microsoft Purview</tags>

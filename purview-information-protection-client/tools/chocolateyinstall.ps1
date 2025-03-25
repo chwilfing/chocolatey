@@ -13,7 +13,7 @@ $packageArgs = @{
 
     softwareName   = 'Purview Information Protection Client'
 
-    checksum       = 'B1947B7767B3CC1219C665DCE975951E390AD6953F912A01AE0F218F1E1042F3'
+    checksum       = '2F96E8C4E50131DAB8508782935E4EADDB6891ECE8BD2F68AB25BAF7B063BEB5'
 
     checksumType   = 'sha256'
 
