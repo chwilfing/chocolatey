@@ -3,7 +3,8 @@ $ErrorActionPreference = 'Stop';
 
 $packageName = $env:ChocolateyPackageName
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://download.microsoft.com/download/4/9/1/491251F7-46BA-46EC-B2B5-099155DD3C27/PurviewInfoProtection.msi'
+$url = 'https://download.microsoft.com/download/5e62f7f5-d616-49f8-b506-f1c6b4f79ba7/PurviewInfoProtection.msi'
+
 
 $packageArgs = @{
     packageName    = $packageName
@@ -13,7 +14,7 @@ $packageArgs = @{
 
     softwareName   = 'Purview Information Protection Client'
 
-    checksum       = '2F96E8C4E50131DAB8508782935E4EADDB6891ECE8BD2F68AB25BAF7B063BEB5'
+    checksum       = '277C9463C8BF2EC50357DEF376615F5E65558EE9DA73C5D4B59648A09DAF2F36'
 
     checksumType   = 'sha256'
 
