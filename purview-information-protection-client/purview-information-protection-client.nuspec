@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>purview-information-protection-client</id>
-    <version>3.1.218.0</version>
+    <version>3.1.310.0</version>
     <packageSourceUrl>https://github.com/chwilfing/chocolatey/tree/master/purview-information-protection-client</packageSourceUrl>
     <owners>Christoph Wilfing</owners>
     <title>Pureview Information Protection Client (Install)</title>
